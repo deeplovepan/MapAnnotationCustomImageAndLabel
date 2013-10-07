@@ -62,10 +62,12 @@
     MyMapAnnotation *mapAnnotation = annotation;
     
     UIImage *pinImage = [UIImage imageNamed:@"test.jpg"];
+    
+    
     annView.image = pinImage;
     annView.titleLabel.text = mapAnnotation.title ;
     annView.centerOffset = CGPointMake(-5, 0);
-    
+    annView.canShowCallout = YES;
     
     return annView;
     

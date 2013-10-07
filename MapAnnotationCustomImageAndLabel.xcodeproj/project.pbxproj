@@ -21,6 +21,10 @@
 		A6452C571802F0DF00B47B96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6452C391802F0DF00B47B96 /* UIKit.framework */; };
 		A6452C5F1802F0DF00B47B96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6452C5D1802F0DF00B47B96 /* InfoPlist.strings */; };
 		A6452C611802F0DF00B47B96 /* MapAnnotationCustomImageAndLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6452C601802F0DF00B47B96 /* MapAnnotationCustomImageAndLabelTests.m */; };
+		A6452C6E1802F0EB00B47B96 /* AnnotationWithLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6452C6B1802F0EB00B47B96 /* AnnotationWithLabelView.m */; };
+		A6452C6F1802F0EB00B47B96 /* MyMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6452C6D1802F0EB00B47B96 /* MyMapAnnotation.m */; };
+		A6452C711802F11E00B47B96 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6452C701802F11E00B47B96 /* MapKit.framework */; };
+		A6452C731802F14100B47B96 /* test@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6452C721802F14100B47B96 /* test@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		A6452C5C1802F0DF00B47B96 /* MapAnnotationCustomImageAndLabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapAnnotationCustomImageAndLabelTests-Info.plist"; sourceTree = "<group>"; };
 		A6452C5E1802F0DF00B47B96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6452C601802F0DF00B47B96 /* MapAnnotationCustomImageAndLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapAnnotationCustomImageAndLabelTests.m; sourceTree = "<group>"; };
+		A6452C6A1802F0EB00B47B96 /* AnnotationWithLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationWithLabelView.h; sourceTree = "<group>"; };
+		A6452C6B1802F0EB00B47B96 /* AnnotationWithLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationWithLabelView.m; sourceTree = "<group>"; };
+		A6452C6C1802F0EB00B47B96 /* MyMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMapAnnotation.h; sourceTree = "<group>"; };
+		A6452C6D1802F0EB00B47B96 /* MyMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMapAnnotation.m; sourceTree = "<group>"; };
+		A6452C701802F11E00B47B96 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A6452C721802F14100B47B96 /* test@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "test@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6452C711802F11E00B47B96 /* MapKit.framework in Frameworks */,
 				A6452C381802F0DF00B47B96 /* CoreGraphics.framework in Frameworks */,
 				A6452C3A1802F0DF00B47B96 /* UIKit.framework in Frameworks */,
 				A6452C361802F0DF00B47B96 /* Foundation.framework in Frameworks */,
@@ -101,6 +112,7 @@
 		A6452C341802F0DF00B47B96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6452C701802F11E00B47B96 /* MapKit.framework */,
 				A6452C351802F0DF00B47B96 /* Foundation.framework */,
 				A6452C371802F0DF00B47B96 /* CoreGraphics.framework */,
 				A6452C391802F0DF00B47B96 /* UIKit.framework */,
@@ -112,6 +124,10 @@
 		A6452C3B1802F0DF00B47B96 /* MapAnnotationCustomImageAndLabel */ = {
 			isa = PBXGroup;
 			children = (
+				A6452C6A1802F0EB00B47B96 /* AnnotationWithLabelView.h */,
+				A6452C6B1802F0EB00B47B96 /* AnnotationWithLabelView.m */,
+				A6452C6C1802F0EB00B47B96 /* MyMapAnnotation.h */,
+				A6452C6D1802F0EB00B47B96 /* MyMapAnnotation.m */,
 				A6452C441802F0DF00B47B96 /* AppDelegate.h */,
 				A6452C451802F0DF00B47B96 /* AppDelegate.m */,
 				A6452C471802F0DF00B47B96 /* Main.storyboard */,
@@ -126,6 +142,7 @@
 		A6452C3C1802F0DF00B47B96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A6452C721802F14100B47B96 /* test@2x.jpg */,
 				A6452C3D1802F0DF00B47B96 /* MapAnnotationCustomImageAndLabel-Info.plist */,
 				A6452C3E1802F0DF00B47B96 /* InfoPlist.strings */,
 				A6452C411802F0DF00B47B96 /* main.m */,
@@ -228,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6452C731802F14100B47B96 /* test@2x.jpg in Resources */,
 				A6452C4E1802F0DF00B47B96 /* Images.xcassets in Resources */,
 				A6452C401802F0DF00B47B96 /* InfoPlist.strings in Resources */,
 				A6452C491802F0DF00B47B96 /* Main.storyboard in Resources */,
@@ -251,6 +269,8 @@
 			files = (
 				A6452C4C1802F0DF00B47B96 /* ViewController.m in Sources */,
 				A6452C461802F0DF00B47B96 /* AppDelegate.m in Sources */,
+				A6452C6F1802F0EB00B47B96 /* MyMapAnnotation.m in Sources */,
+				A6452C6E1802F0EB00B47B96 /* AnnotationWithLabelView.m in Sources */,
 				A6452C421802F0DF00B47B96 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
